@@ -1,0 +1,92 @@
+/* Dash.css */
+
+.main-container {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .main-cards {
+    
+    display: flex;
+    
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 15px; /* Adjust this value for the desired space */
+
+  }
+  
+  .inner-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .card_icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .charts {
+    width: 50%px;
+    display: flex;
+    
+    justify-content: space-between;
+  }
+  
+  /* ResponsiveContainer styles */
+  .recharts-wrapper {
+    height: 400px;
+    width: 100%;
+  }
+  
+  .todo {
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  
+  
+  li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Add a hover effect for better user interaction */
+  li:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  /* Style the text inside the list items */
+  li span {
+    flex-grow: 1;
+  }
+  
+  /* Optional: Add a checkmark icon for completed tasks */
+  li.completed {
+    background-color: #d3f6da; /* Light green for completed tasks */
+    text-decoration: line-through;
+  }
+  /* Optional: Add more styles based on your design needs */
+  

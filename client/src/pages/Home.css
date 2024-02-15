@@ -1,0 +1,62 @@
+.page-main{
+    height: 100vh;
+    background-color: rgb(24, 19, 52) !important;
+}
+
+.para{
+    max-width: 100%;
+    color: rgb(101, 56, 124); /* Gold or yellow color */
+    margin-top: 150px;
+    font-weight: 400;
+    font-size: 25px;
+    width: 1000px;
+}
+
+@media (max-width: 768px) {
+    .para{
+      width: 100%; /* On smaller screens, make it full-width */
+    }
+  }
+
+.navbar-nav button{
+    margin: 0 15vh;
+   
+}
+
+.header-img{
+    width: 7vh;
+    height: 5vh;
+}
+
+.Header{
+    text-align: center;
+    width: 457px;
+  height: 180px;
+  color: #7A7A90;
+
+  font-size: 49px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.btn-container{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    margin-top: 100px;
+}
+.btn{
+   margin: 50px;
+    background-color: rgb(21,21,26); /* Set background color */
+    
+}
+
+.btn:hover{
+    background-color: rgb(101, 56, 124)  !important;
+    
+}
+
+.login-btn{
+    margin-left: 16%;
+    width: 75px;
+}

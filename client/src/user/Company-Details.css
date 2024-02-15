@@ -1,0 +1,49 @@
+/* Company-Details.css */
+.company-image {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto; /* Use margin: 0 auto to horizontally center the image */
+    display: block; /* Set display: block to remove the default margin */
+  }
+  
+  .company-name {
+    font-style: italic;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /* Use text-align: center to horizontally center the text */
+  }
+  
+  .company-details {
+    margin-left: 300px;
+    background-color: rgb(229, 229, 229);
+  }
+  body{
+    background-color: rgb(229,229,229);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+  .sal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .abt {
+    font-style: italic;
+    font-size: 30px;
+    text-align: center; /* Use text-align: center to center the text */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .des {
+    font-style: italic;
+    font-size: 20px;
+    text-align: center; /* Use text-align: center to center the text */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  

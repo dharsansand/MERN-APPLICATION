@@ -1,0 +1,55 @@
+/* App.css */
+
+.sidebar-heading {
+  color: aliceblue !important;
+}
+/* Update class name to match the component */
+.sidebar-wrapper {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  
+  left: 0;
+  background-color: rgb(21,21,26); /* Change the background color to black */
+  padding-top: 20px;
+}
+
+.rounded-circle{
+  width: 50%;
+}
+/* Add padding to the right of the main content area */
+
+
+.sidebar-wrapper ul {
+  list-style: none;
+  background-color: rgb(21,21,26) !important;
+ 
+}
+
+.sidebar-wrapper li {
+  padding: 10px;
+    background-color: rgb(21,21,26) !important;
+}
+
+.sidebar-wrapper li a {
+
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  background-color: rgb(21,21,26) !important;
+}
+
+.sidebar-wrapper li a:hover {
+  background-color: black;
+}
+.custom-list-item {
+  color: aliceblue !important; 
+  background-color: rgb(21,21,26) !important;
+  border-color: rgb(21,21,26) !important;
+  
+}
+
+.sidenav{
+  height: 100% !important;
+ 
+}

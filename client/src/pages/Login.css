@@ -1,0 +1,69 @@
+/* Add these styles to your existing CSS file or create a new one */
+
+.login-body {
+  background-image: url("../assests/bg2.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  display: flex;
+  align-items: center; /* Vertically center the contents */
+  justify-content: center; /* Horizontally center the contents */
+  padding: 20px; /* Optional: Add padding to the container if needed */
+  font-family: "Arial", sans-serif; /* Use your preferred font-family */
+  color: #baa01d;
+  overflow: hidden;
+}
+
+/* Input container */
+.input-container {
+  height: 300px; /* Adjust the height if needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items vertically */
+}
+
+.contents {
+  text-align: center;
+}
+
+.wel {
+  color: #ffffff;
+}
+
+.en {
+  color: #ffffff;
+}
+
+/* Input styles */
+.input-field {
+  width: 21.875rem;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+ 
+
+
+
+button{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+/* Input focus styles */
+.input-field:focus {
+  border-color: #ff5500; /* Change to your preferred focus color */
+}
+
+/* Add a common style for both inputs */
+.input-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}

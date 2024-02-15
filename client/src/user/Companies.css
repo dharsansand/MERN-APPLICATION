@@ -1,0 +1,76 @@
+/* Add this custom CSS in your CSS file or inside the <style> tag in your JSX */
+
+/* Styling for the card-body */
+
+.card-body {
+  padding: 30px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  background-color: rgb(229, 229, 229);
+}
+.reg-btn {
+  background-color: rgb(21, 21, 26); /* Set background color */
+  width: fit-content;
+  margin-left: 120px;
+  border-style: dotted;
+  color: aliceblue;
+  border-radius: 5%;
+}
+/* Styling for the card-title */
+.card-title {
+  font-size: 24px; /* Increase font size */
+  font-weight: bold; /* Add bold font-weight */
+}
+
+/* Styling for the card-subtitle */
+.card-subtitle {
+  font-size: 18px; /* Increase font size */
+  font-weight: bold; /* Add bold font-weight */
+  color: #555; /* Change color */
+}
+.hehe {
+  background-color: rgb(24, 19, 52) !important;
+}
+/* Styling for the card-text */
+.card-text {
+  font-size: 16px; /* Increase font size */
+  line-height: 1.6; /* Increase line-height for better readability */
+  color: #333; /* Change color */
+}
+
+/* Add this custom CSS to make the cards display horizontally */
+
+/* Container to hold the cards */
+.card-container {
+  display: flex; /* Use flexbox to arrange the cards horizontally */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line if needed */
+  justify-content: space-between; /* Distribute cards evenly along the horizontal axis */
+  background-color: rgb(21, 21, 26);
+  width: calc(
+    100% - 250px
+  ); /* Adjust the value based on your sidebar's width */
+}
+.card-img-top {
+  width: 100%;
+  height: 150px;
+}
+/* Styling for each card */
+.card {
+  width: 23%; /* Adjust the width of each card to occupy 30% of the screen width with some margin in between */
+  margin-bottom: 20px;
+  margin-left: 1%;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(
+      100% - 20px
+    ); /* Adjust the width of each card to occupy the full width */
+  }
+  @media (max-width: 768px) {
+    .card-container {
+      width: 100%; /* Full width when the sidebar is hidden in mobile view */
+      margin-left: 0; /* No need for margin when the sidebar is hidden */
+    }
+  }
+}

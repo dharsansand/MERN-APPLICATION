@@ -1,0 +1,40 @@
+/* UserProfilePage.css */
+
+/* Container styling */
+.user-profile-container {
+  margin-left: 200px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Heading styling */
+.user-profile-container h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Profile data styling */
+.user-profile-data {
+  margin-bottom: 10px;
+}
+
+.user-profile-data p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.user-profile-data p span {
+  font-weight: bold;
+}
+
+/* Loading message styling */
+.loading-message {
+  font-size: 18px;
+  text-align: center;
+  color: #666;
+}
